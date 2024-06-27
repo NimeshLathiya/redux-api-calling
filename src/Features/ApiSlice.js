@@ -1,4 +1,4 @@
-import { , createSlice } from "@reduxjs/toolkit";
+import {createAsyncThunk , createSlice } from "@reduxjs/toolkit";
 
 // Define the async thunk
 export const getAllData = createAsyncThunk(
