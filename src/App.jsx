@@ -9,7 +9,7 @@ const App = () => {
   // Fetch data when the component mounts
   useEffect(() => {
     dispatch(getAllData());
-  }, [dispatch]);
+  }, []);
 
   const { users, loading, error } = useSelector((state) => state.app);
 
